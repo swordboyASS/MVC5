@@ -1,6 +1,7 @@
-ASP.NET MVC是一种构建Wen应用程序的框架，它将一班的MVC(Model-View-Controller)模式应用于ASP.NET框架。 
+### ASP.NET MVC简介
+ASP.NET MVC是一种构建Web应用程序的框架，它将一班的MVC(Model-View-Controller)模式应用于ASP.NET框架。 
 
-## MVC模式简介 
+### MVC模式简介 
 
   MVC成为计算机科学领域重要的构建模式已有多年历史。1979年，它最初被命名为事物-模型-视图-编辑器（Thing-Model-View-Editor），
 后来简化成了模型-视图-控制器（Model-View-Controller）。在分离应用程序内部的关注点方面（例如，从显示逻辑中分离出数据访问逻辑），
@@ -12,4 +13,4 @@ MVC将应用程序的用户界面（User Interface，UT）分为三个主要部�
 
 * 视图：定义应用程序用户界面的显示方式。
 
-* 控制器：一组类，用于处理来自用户、整个应用程序流以及特定应用程序逻辑的通
+* 控制器：一组类，用于处理来自用户、整个应用程序流以及特定应用程序逻辑的通信
