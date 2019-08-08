@@ -2,7 +2,7 @@
 ## 链接字符换
 
 在APP_Start中创建一个ConnData类
-![](7.png)
+![创建ConnData类](https://github.com/swordboyASS/MVC5/blob/master/picture/7.png)
 
  ```C#
 using System;
@@ -64,7 +64,7 @@ namespace WebApplication01.Controllers
 ```
 #### 在模型中创建user类
 
-![](8.png)
+![创建user类](https://github.com/swordboyASS/MVC5/blob/master/picture/8.png)
 
 ```C#
 using System;
@@ -111,5 +111,5 @@ namespace WebApplication01.Models
 </ul>
 ```
 ### 然后在视图下Ctrl+F5
-![](9.png)
-![](10.png)
+![](https://github.com/swordboyASS/MVC5/blob/master/picture/9.png)
+![](https://github.com/swordboyASS/MVC5/blob/master/picture/10.png)
