@@ -261,7 +261,7 @@ ViewBag和ViewData，都是从ViewDataDictionary实例化而来ViewBag是ViewDat
 强制类型辅助方法，主要是用来绑定模型属性的方法
 普通辅助方法，后面加For就是强制类型辅助方法
 `@Html.TextBox For（Model->Model.属性）`
-![b17](https://github.com/swordboyASS/MVC5/blob/master/picture/b17.png)
 ![b18](https://github.com/swordboyASS/MVC5/blob/master/picture/b18.png)
 ![b19](https://github.com/swordboyASS/MVC5/blob/master/picture/b19.png)
 ![b20](https://github.com/swordboyASS/MVC5/blob/master/picture/b20.png)
+![b21](https://github.com/swordboyASS/MVC5/blob/master/picture/b21.png)
