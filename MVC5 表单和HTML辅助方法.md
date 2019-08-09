@@ -187,6 +187,81 @@ namespace WebApplication0201.Models
 ![b11](https://github.com/swordboyASS/MVC5/blob/master/picture/b11.png)
 
     
-    
-    
-    
+
+
+### HTML.ActionLink（）和HTML.RouteLink（）
+`主要是替换a标签`
+###### @HTML.ActionLink（“链接显示内容”，”方法"，”控制器名称"）
+###### HTML.RouteLink（“链接显示"，new{
+action="路由}）  
+![b12](![b10](https://github.com/swordboyASS/MVC5/blob/master/picture/b12.png)
+![b13](![b10](https://github.com/swordboyASS/MVC5/blob/master/picture/b13.png)
+
+### Html.Partial（）和Html.RenderPartial（）
+
+```
+Html.Partial（）
+@Html.Partial用于将分部视图渲染为字符串
+@Html.Partial（视图名称e@Html.Partial（视图名称，Model，ViewDataDictionary）
+new ViewDataDictionary（）；
+```
+实例
+
+```@Html.Partial（"_PartialPage1"NEWClass1{name="1"，value=“小明"
+}，
+new ViewDataDictionary{{“学校”，“山。
+东大学”}，{“班级”，“大一三班"}}）
+```
+
+```
+Html.RenderPartial（）
+@{Html.RenderPartial}将分布视图直接写入响应输出流，所以只能直接放在代码块中，不能放在表达式中（返回值是void）
+@（Html.RenderPartial（视图名称）}
+@{Html.RenderPartial（视图名称，Model，ViewDataDictionary）}
+```
+
+### ViewBag、ViewData和ViewDataDictionary
+ViewBag是ViewData的动态封装，使用上根据自己的习惯而定
+控制器的ViewData属性是公开ViewDataDictionary类的实例。要将数据传递给视图，请先在呈现视图的操作方法中将数据添加到控制器的ViewData 属性中
+
+```
+ViewBag.name="小明"；
+ViewData["name"]="小ming"；
+
+前端：
+<div>
+@ViewBag.name
+@ViewData["name"]
+</div>
+
+ViewDataDictionary：
+newViewDataDictionary）{{"学校”，”山东大学}，{”班级"，”大一三班"}}）
+
+<div>
+姓名@Mode1.value；学校@ViewData["学校”]班级@ViewData["班级"]
+</div>
+使用之后就可以通过VlewData访问
+```
+ViewBag和ViewData是已经实例化的对象，可以直接使用  
+ViewDataDictionary是视图字典类  
+ViewBag和ViewData，都是从ViewDataDictionary实例化而来ViewBag是ViewData的动态封装
+
+![b14](![b10](https://github.com/swordboyASS/MVC5/blob/master/picture/b14.png)
+
+
+### HTML.Action()和HTML.RenderAction()
+`@Html.Action（“方法”“控制器”）`
+`@{Html.RenderAction（“方法”，“控制器”）`
+![b15](https://github.com/swordboyASS/MVC5/blob/master/picture/b15.png)
+![b16](https://github.com/swordboyASS/MVC5/blob/master/picture/b16.png)
+![b17](https://github.com/swordboyASS/MVC5/blob/master/picture/b17.png)
+
+
+### 强类型辅助方法
+强制类型辅助方法，主要是用来绑定模型属性的方法
+普通辅助方法，后面加For就是强制类型辅助方法
+`@Html.TextBox For（Model->Model.属性）`
+![b17](https://github.com/swordboyASS/MVC5/blob/master/picture/b17.png)
+![b18](https://github.com/swordboyASS/MVC5/blob/master/picture/b18.png)
+![b19](https://github.com/swordboyASS/MVC5/blob/master/picture/b19.png)
+![b20](https://github.com/swordboyASS/MVC5/blob/master/picture/b20.png)
