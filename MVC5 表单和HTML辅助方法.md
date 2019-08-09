@@ -47,6 +47,7 @@ Html.DropDownList/Html.ListBox 可以单选/主要是替换<select>
 !(b6)[]
 
 #### Home控制器
+
 ```C#
 using System;
 using System.Collections.Generic;
@@ -111,6 +112,7 @@ namespace WebApplication0201.Controllers
 }
 ```
 #### 模型中的Calss1类
+
 ```C#
 using System;
 using System.Collections.Generic;
@@ -126,7 +128,9 @@ namespace WebApplication0201.Models
     }
 }
 ```
+
 #### Test控制器的index视图
+
 ```C#
 @model IEnumerable<WebApplication0201.Models.Class1>
 @{
@@ -151,6 +155,7 @@ namespace WebApplication0201.Models
 }
 ```
 `好的学习都习惯实践`
+
 ![b7]()
 
 没有默认值（虽然这么说，但真实不选其他的话没有默认值，只是提供了一个虚假的显示罢了）
@@ -166,8 +171,12 @@ namespace WebApplication0201.Models
 ![b9]()
 
 ### HTML.RadioButton（）和HTML.CheckBox（）
+前端：
+![b10]()
 
-    
+后端：
+![b11]()
+
     
     
     
