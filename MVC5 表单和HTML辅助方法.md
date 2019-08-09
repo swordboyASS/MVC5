@@ -40,9 +40,9 @@ Html.BeginForm(“方法”,”mvc控制器名称”，Method)
 
 ### Html.DropDownList 和Html.ListBox
 
-Html.DropDownList/Html.ListBox 可以单选/主要是替换<select>
+`Html.DropDownList/Html.ListBox 可以单选/主要是替换<select>`
 	
-![b4](https://github.com/swordboyASS/MVC5/blob/master/picture/b4.png)
+![](https://github.com/swordboyASS/MVC5/blob/master/picture/b4.png)
 
 ![b5](https://github.com/swordboyASS/MVC5/blob/master/picture/b5.png)
 
