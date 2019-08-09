@@ -1,7 +1,9 @@
 ### HTMl形式  
-`<form action=“网址” method=“get/post”>
+`
+<form action=“网址” method=“get/post”>
     控件标签
 </form>
+
 `
 action告诉大家表单信息发往哪里
 method告诉大家数据的发送模式主要是get和post方法
