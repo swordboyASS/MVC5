@@ -21,12 +21,12 @@ Html.BeginForm(“方法”,”mvc控制器名称”，Method)
 创建Test控制器=》 添加Test视图=》在视图中创建form表单，写一个text标签和submit标签=》text标签的name属性和action中控制器的方法参数对应相同。
 
 视图中的代码：
-!(b1)[]
+!(b1)[https://github.com/swordboyASS/MVC5/blob/master/picture/b1.png]
 
 
 
 添加target属性使用Html辅助方法，对比传统方式：
-!(b2)[]
+!(b2)[https://github.com/swordboyASS/MVC5/blob/master/picture/b2.png]
 
 ### Html.HIdden("控件名","控件值")
 
@@ -36,15 +36,15 @@ Html.BeginForm(“方法”,”mvc控制器名称”，Method)
 ### Html.Label() 和 Html.TextBox（）
 
 分别替换label标签和text属性
-!(b3)[]
+!(b3)[https://github.com/swordboyASS/MVC5/blob/master/picture/b3.png]
 
 ### Html.DropDownList 和Html.ListBox
 
 Html.DropDownList/Html.ListBox 可以单选/主要是替换<select>
-!(b4)[]
-!(b5)[]
+!(b4)[https://github.com/swordboyASS/MVC5/blob/master/picture/b4.png]
+!(b5)[https://github.com/swordboyASS/MVC5/blob/master/picture/b5.png]
 取得是Value值 而非Key值
-!(b6)[]
+!(b6)[https://github.com/swordboyASS/MVC5/blob/master/picture/b6.png]
 
 #### Home控制器
 
@@ -154,9 +154,9 @@ namespace WebApplication0201.Models
     <input type="submit" value="搜索" />
 }
 ```
-`好的学习都习惯实践`
+`好的学习者都习惯实践`
 
-![b7]()
+![b7](https://github.com/swordboyASS/MVC5/blob/master/picture/b7.png)
 
 没有默认值（虽然这么说，但真实不选其他的话没有默认值，只是提供了一个虚假的显示罢了）
 //因为浏览器缓存原因，可能数据替换有延迟
@@ -165,17 +165,17 @@ namespace WebApplication0201.Models
  ### Html.Password()
 
 前端：
-![b8]()
+![b8](https://github.com/swordboyASS/MVC5/blob/master/picture/b8.png)
 
 后端：
-![b9]()
+![b9](https://github.com/swordboyASS/MVC5/blob/master/picture/b9.png)
 
 ### HTML.RadioButton（）和HTML.CheckBox（）
 前端：
-![b10]()
+![b10](https://github.com/swordboyASS/MVC5/blob/master/picture/b10.png)
 
 后端：
-![b11]()
+![b11](https://github.com/swordboyASS/MVC5/blob/master/picture/b11.png)
 
     
     
