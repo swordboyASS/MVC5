@@ -41,8 +41,11 @@ Html.BeginForm(“方法”,”mvc控制器名称”，Method)
 ### Html.DropDownList 和Html.ListBox
 
 Html.DropDownList/Html.ListBox 可以单选/主要是替换<select>
+	
 ![b4](https://github.com/swordboyASS/MVC5/blob/master/picture/b4.png)
+
 ![b5](https://github.com/swordboyASS/MVC5/blob/master/picture/b5.png)
+
 取得是Value值 而非Key值
 ![b6](https://github.com/swordboyASS/MVC5/blob/master/picture/b6.png)
 
@@ -79,8 +82,11 @@ namespace WebApplication0201.Controllers
         }
     }
 }
+
 ```
+
 #### Test控制器
+
 ```C#
 using System;
 using System.Collections.Generic;
@@ -111,6 +117,7 @@ namespace WebApplication0201.Controllers
 	}
 }
 ```
+
 #### 模型中的Calss1类
 
 ```C#
@@ -154,7 +161,9 @@ namespace WebApplication0201.Models
     <input type="submit" value="搜索" />
 }
 ```
-`好的学习者都习惯实践`
+
+
+好的学习者都习惯实践
 
 ![b7](https://github.com/swordboyASS/MVC5/blob/master/picture/b7.png)
 
