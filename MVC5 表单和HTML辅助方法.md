@@ -21,12 +21,12 @@ Html.BeginForm(“方法”,”mvc控制器名称”，Method)
 创建Test控制器=》 添加Test视图=》在视图中创建form表单，写一个text标签和submit标签=》text标签的name属性和action中控制器的方法参数对应相同。
 
 视图中的代码：
-!(b1)[https://github.com/swordboyASS/MVC5/blob/master/picture/b1.png]
+![b1](https://github.com/swordboyASS/MVC5/blob/master/picture/b1.png)
 
 
 
 添加target属性使用Html辅助方法，对比传统方式：
-!(b2)[https://github.com/swordboyASS/MVC5/blob/master/picture/b2.png]
+![](https://github.com/swordboyASS/MVC5/blob/master/picture/b2.png)
 
 ### Html.HIdden("控件名","控件值")
 
@@ -36,15 +36,15 @@ Html.BeginForm(“方法”,”mvc控制器名称”，Method)
 ### Html.Label() 和 Html.TextBox（）
 
 分别替换label标签和text属性
-!(b3)[https://github.com/swordboyASS/MVC5/blob/master/picture/b3.png]
+![](https://github.com/swordboyASS/MVC5/blob/master/picture/b3.png)
 
 ### Html.DropDownList 和Html.ListBox
 
 Html.DropDownList/Html.ListBox 可以单选/主要是替换<select>
-!(b4)[https://github.com/swordboyASS/MVC5/blob/master/picture/b4.png]
-!(b5)[https://github.com/swordboyASS/MVC5/blob/master/picture/b5.png]
+![b4](https://github.com/swordboyASS/MVC5/blob/master/picture/b4.png)
+![b5](https://github.com/swordboyASS/MVC5/blob/master/picture/b5.png)
 取得是Value值 而非Key值
-!(b6)[https://github.com/swordboyASS/MVC5/blob/master/picture/b6.png]
+![b6](https://github.com/swordboyASS/MVC5/blob/master/picture/b6.png)
 
 #### Home控制器
 
