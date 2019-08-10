@@ -6,3 +6,4 @@
 #### :file_folder:[EF框架](https://github.com/swordboyASS/MVC5/edit/master/EF%E6%A1%86%E6%9E%B6.md)
 #### :file_folder:[ MVC5 表单和HTML辅助方法](https://github.com/swordboyASS/MVC5/blob/master/MVC5%20%E8%A1%A8%E5%8D%95%E5%92%8CHTML%E8%BE%85%E5%8A%A9%E6%96%B9%E6%B3%95.md)
 #### :file_folder:[数据验证注解](https://github.com/swordboyASS/MVC5/edit/master/%E6%95%B0%E6%8D%AE%E9%AA%8C%E8%AF%81%E6%B3%A8%E8%A7%A3.md)
+#### :file_folder: [](https://github.com/swordboyASS/MVC5/blob/master/jQuery%20Ajax%E7%9A%84%E4%BD%BF%E7%94%A8.md)
